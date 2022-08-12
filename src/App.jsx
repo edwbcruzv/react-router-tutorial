@@ -10,13 +10,18 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import UserPage from './pages/UserPage';
 import UsersPages from './pages/UsersPages';
+import HooksPage from './pages/HooksPage';
+
+import { Paper } from '@mui/material'
+
+
 
 const App = () => {
   return (
     <BrowserRouter>
 
       <Navbar/>
-      
+      <Paper elevation={5} square>
       <Routes>
         <Route path='/' //nombre de la url
               element={<HomePage/>} //componente a mostrar a traves del path
@@ -27,6 +32,9 @@ const App = () => {
         <Route path='/users' //nombre de la url
               element={<UsersPages/>} //componente a mostrar a traves del path
               />
+        <Route path='/hooks' //nombre de la url
+              element={<HooksPage/>} //componente a mostrar a traves del path
+              />  
         <Route path='/users/:id' //nombre de la url
               element={<UserPage/>} //componente a mostrar a traves del path
               />
@@ -50,7 +58,7 @@ const App = () => {
                 />
         </Routes>
     
-    
+        </Paper>
     </BrowserRouter>
   )
 }
