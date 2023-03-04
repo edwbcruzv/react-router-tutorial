@@ -12,7 +12,8 @@ const Navbar = () => {
         <MenuItem ><NavLink to='/'>Home</NavLink></MenuItem>
         <MenuItem ><NavLink to='/users'>Users</NavLink></MenuItem>
         <MenuItem ><NavLink to='/about'>About</NavLink></MenuItem>
-        <MenuItem ><NavLink to='/hooks'>Hooks</NavLink></MenuItem>
+        <MenuItem ><NavLink to='/lifecycle'>Life Cycle</NavLink></MenuItem>
+        <MenuItem ><NavLink to='/forms'>Fromularios</NavLink></MenuItem>
         <Typography variant="h6">
           link
         </Typography>

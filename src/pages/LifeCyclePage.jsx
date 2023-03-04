@@ -1,4 +1,5 @@
 import React from 'react'
+
 import AJAXClass from '../CicloDeVida/AJAXClass'
 import AJAXHook from '../CicloDeVida/AJAXHook'
 import HookPersonalizado from '../CicloDeVida/HookPersonalizado'
@@ -8,7 +9,8 @@ import MyUseState from '../CicloDeVida/MyUseState'
 import Referencias from '../CicloDeVida/Referencias'
 import RelojHooks from '../CicloDeVida/RelojHooks'
 
-function HooksPage() {
+
+function LifeCyclePage() {
   return (
     <div>
         
@@ -27,9 +29,11 @@ function HooksPage() {
         <h3>Hook PErsonalizado</h3>
         {/* <HookPersonalizado/> */}
         <h3>Referencias</h3>
-        <Referencias/>
+        {/* <Referencias/> */}
+        
+
     </div>
   )
 }
 
-export default HooksPage
+export default LifeCyclePage
