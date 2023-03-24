@@ -1,7 +1,6 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
 import { NavLink } from 'react-router-dom'
 import MenuItem from '@mui/material/MenuItem'
 
@@ -14,9 +13,9 @@ const Navbar = () => {
         <MenuItem ><NavLink to='/about'>About</NavLink></MenuItem>
         <MenuItem ><NavLink to='/lifecycle'>Life Cycle</NavLink></MenuItem>
         <MenuItem ><NavLink to='/forms'>Fromularios</NavLink></MenuItem>
-        <Typography variant="h6">
-          link
-        </Typography>
+        <MenuItem ><NavLink to='/anidacion'>Anidacion</NavLink></MenuItem>
+        <MenuItem ><NavLink to='/contact'>Contacto</NavLink></MenuItem>
+        
       </Toolbar>
     </AppBar>
   )
